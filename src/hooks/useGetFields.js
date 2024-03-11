@@ -10,7 +10,7 @@ export function useGetFields(type) {
   }, [])
 
   function getFields() {
-    fetch('http://api.valantis.store:40000/', {
+    fetch('https://api.valantis.store:41000/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

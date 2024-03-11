@@ -20,7 +20,7 @@ export function useGetItems(ids, setItems, page, limit, setLoadingStatus) {
 
   function getItems(requestIds) {
     setLoadingStatus('pending');
-    fetch('http://api.valantis.store:40000/', {
+    fetch('https://api.valantis.store:41000/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -11,7 +11,7 @@ export function useFilter(filter, setIds, setPage, setLoadingStatus) {
 
   function getFilteredIds(f) {
     setLoadingStatus('pending')
-    fetch('http://api.valantis.store:40000/', {
+    fetch('https://api.valantis.store:41000/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
