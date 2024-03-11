@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 20px;
+}
+
+.empltyListMessage {
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  color: var(--red);
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+}

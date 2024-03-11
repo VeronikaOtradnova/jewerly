@@ -1,0 +1,43 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 48%;
+  padding: 15px;
+  padding-bottom: 50px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.id {
+  align-self: flex-start;
+  font-size: 1.3rem;
+  color: var(--gray-text);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000;
+  margin-top: 5px;
+}
+
+.price {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  align-self: flex-end;
+  margin-top: 10px;
+  color: var(--red);
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}

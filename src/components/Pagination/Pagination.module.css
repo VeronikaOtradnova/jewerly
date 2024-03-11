@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 1.8rem;
+  color: var(--gray-text);
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-size: 50% 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url('/src/icons/chevron.svg');
+  transform: rotate(90deg);
+}
+.btn:hover {
+  cursor: pointer;
+  background-image: url('/src/icons/chevron-red.svg');
+}
+
+.backBtn {
+  transform: rotate(-90deg);
+}
+
+.disabledBtn {
+  opacity: 0.5;
+}
+.disabledBtn:hover {
+  cursor: auto;
+  background-image: url('/src/icons/chevron.svg');
+}
